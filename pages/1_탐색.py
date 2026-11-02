@@ -1,6 +1,7 @@
 
 import pandas as pd
 import streamlit as st
+import plotly.express as px
 
 # 데이터 주소
 DATA_URL = "https://raw.githubusercontent.com/greatsong/modudata/main/data/stroke.csv"
