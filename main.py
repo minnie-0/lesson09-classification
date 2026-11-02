@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 
 import pandas as pd
-import plotly.express as px
 import streamlit as st
 
 DATA_URL = "https://raw.githubusercontent.com/greatsong/modudata/main/data/stroke.csv"
