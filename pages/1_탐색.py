@@ -1,10 +1,6 @@
 # pages/1_탐색.py — 나이·혈당의 분포, 두 그룹 비교, 고혈압·심장병별 비율, 빈 값 살펴보기
 import pandas as pd
 import streamlit as st
-import importlib.util
-
-st.write("Plotly 설치 여부:", importlib.util.find_spec("plotly"))
-
 import plotly.express as px
 import streamlit as st
 
